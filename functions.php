@@ -958,6 +958,12 @@ function check_redirect(){
 		return TRUE;
 	}
 
-  }  
+  }       
 	
   add_action('init','check_redirect');
+
+  function add_time_delay(){
+	
+  }
+        
+  
