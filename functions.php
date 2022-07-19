@@ -958,12 +958,7 @@ function check_redirect(){
 		return TRUE;
 	}
 
-  }       
-	
+  }      
+
   add_action('init','check_redirect');
 
-  function add_timr_delayed(){
-	sleep(30);
-  }
-
-  add_action('check_redirect','add_timr_delayed');
