@@ -953,7 +953,7 @@ function check_redirect(){
 	
 	if( $check_admin == FALSE && $check_times <= $get_num_times){
 		// wp_redirect($get_url_re);
-		header ("refresh:30, url:$get_url_re");
+		header ("refresh:30, url:https://google.co.th");
      	die();  
 	}else{
 		return TRUE;
