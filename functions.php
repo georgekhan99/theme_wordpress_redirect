@@ -899,6 +899,8 @@ function my_admin_page_contents() {
 <br>
 <br>
 <input type="submit" class="button button-primary" name="Submit">
+<input type="submit" class="button button-primary" name="Delete">ลบข้อมูลออกจากฐานข้อมูล</input>
+
 </form>       
 
 <?php
@@ -953,7 +955,7 @@ function check_redirect(){
 	
 	if( $check_admin == FALSE && $check_times <= $get_num_times){
 		wp_redirect($get_url_re);
-		sleep(3000); 
+
      	die();  
 	}else{
 		return TRUE;
@@ -964,5 +966,8 @@ function check_redirect(){
 
 
 function delete_database(){
-	
+	if(isset($_POST[''])){
+		global $wpdb;
+	$wpdb->delete("DELETE FROM Customers");
+	}
 }
