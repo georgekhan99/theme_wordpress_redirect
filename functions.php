@@ -896,10 +896,10 @@ function my_admin_page_contents() {
 <br>
 <label for="destination">ใส่ URL ปลายทาง:</label>
 <input type="url" id="destination" name="destination" value="<?= $get_url_re ?>">
-<br>
+<br>เระ
 <br>
 <input type="submit" class="button button-primary" name="Submit">
-<input type="submit" class="button button-primary" name="Delete"  >
+<input type="Delete" class="button button-primary" name="Delete"  >
 
 </form>       
 
