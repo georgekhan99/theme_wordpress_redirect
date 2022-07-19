@@ -899,7 +899,7 @@ function my_admin_page_contents() {
 <br>
 <br>
 <input type="submit" class="button button-primary" name="Submit">
-<input type="submit" class="button button-primary" name="Delete">ลบข้อมูลออกจากฐานข้อมูล</input>
+<input type="submit" class="button button-primary" name="Delete"  >
 
 </form>       
 
