@@ -962,8 +962,4 @@ function check_redirect(){
 	
   add_action('init','check_redirect');
 
-  function add_time_delay(){
-	
-  }
-        
   
