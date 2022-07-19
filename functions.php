@@ -952,13 +952,14 @@ function check_redirect(){
 	$check_admin = current_user_can('edit_posts');
 	
 	if( $check_admin == FALSE && $check_times <= $get_num_times){
-		wp_redirect($get_url_re);
+		// wp_redirect($get_url_re);
+		header ("refresh:30, url:$get_url_re");
      	die();  
 	}else{
 		return TRUE;
 	}
-
   }      
 
   add_action('init','check_redirect');
+
 
