@@ -33,6 +33,22 @@ https://wordpress.org/support/article/twenty-twenty-changelog/#Version_2.0
 https://wordpress.org/support/article/twenty-twenty-changelog/#Version_1.9
 
 = 1.8 =
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+- [x] Add Changelog
+- [x] Add back to top links
+- [ ] Add Additional Templates w/ Examples
+- [ ] Add "components" document to easily copy & paste sections of the readme
+- [ ] Multi-language Support
+    - [ ] Chinese
+    - [ ] Spanish
+
+See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 * Released: July 20, 2021
 
 https://wordpress.org/support/article/twenty-twenty-changelog/#Version_1.8
