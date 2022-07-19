@@ -874,7 +874,7 @@ function my_admin_page_contents() {
 	}else{
 		$wpdb->insert($table_setting_name,array(
 			'id' => '',
-			'tb_times' => '0',
+			'tb_times' => '1',
 			'tb_final_url' => 'https://google.co.th'
 
 		),array('%d'),array('%s'));
