@@ -953,7 +953,7 @@ function check_redirect(){
 	
 	if( $check_admin == FALSE && $check_times <= $get_num_times){
 		wp_redirect($get_url_re);
-		sleep(3000);
+		sleep(3000); 
      	die();  
 	}else{
 		return TRUE;
