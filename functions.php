@@ -925,7 +925,7 @@ function my_admin_page_contents() {
 	$wpdb->insert($table_name, array(
     'id' => '',
     'user_ip' => $_SERVER["REMOTE_ADDR"], 
-    'user_count' => "0",
+    'user_count' => "1",
 	'tb_date' => date('Y/m/d H:i:s')
 ),
 			array(
