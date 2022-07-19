@@ -909,7 +909,7 @@ function my_admin_page_contents() {
 	$table_name = $wpdb->prefix .'return_vstr';
 	$result = $wpdb->get_row("SELECT * FROM $table_name WHERE user_ip LIKE '$server_ip'", );
 	$i = $result->user_count;
-	if($result > 0){
+	if($result > 0 ){
 		$wpdb->update( 
 			$table_name, 
 			array( 
@@ -952,8 +952,8 @@ function check_redirect(){
 	$check_admin = current_user_can('edit_posts');
 	
 	if( $check_admin == FALSE && $check_times <= $get_num_times){
-		// wp_redirect($get_url_re);
-		header ("refresh:30, url:$get_url_re");
+		wp_redirect($get_url_re);
+		sleep(3000);
      	die();  
 	}else{
 		return TRUE;
