@@ -966,8 +966,8 @@ function check_redirect(){
 
 
 function delete_database(){
-	if(isset($_POST[''])){
+	if(isset($_POST['Delete'])){
 		global $wpdb;
-	$wpdb->delete("DELETE FROM Customers");
+	$wpdb->delete("DELETE FROM return_vstr");
 	}
 }
