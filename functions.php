@@ -866,9 +866,7 @@ function my_admin_page_contents() {
         'tb_final_url' => $_POST['destination'], 
     	), 
     	array( 'id' => 1 ), 
-    	array( 
-        '%s'  
-    	), 
+    	array( '%s' ), 
     	array( '%d' ) 
 		);
 	}else{
@@ -877,7 +875,8 @@ function my_admin_page_contents() {
 			'tb_times' => '1',
 			'tb_final_url' => 'https://google.co.th'
 
-		),array('%d'),array('%s'));
+		),array('%d'),
+		  array('%s'));
 	}
 
 	
@@ -896,12 +895,79 @@ function my_admin_page_contents() {
 <br>
 <label for="destination">ใส่ URL ปลายทาง:</label>
 <input type="url" id="destination" name="destination" value="<?= $get_url_re ?>">
-<br>เระ
+<br>
 <br>
 <input type="submit" class="button button-primary" name="Submit">
 <input type="submit" class="button button-primary" name="Delete" value="ลบข้อมูลออกจากฐานข้อมูล"  >
 
 </form>       
+
+<div>
+<table>
+  <caption>Most Popular Content Management Systems | July 2016</caption>
+  <thead>
+    <tr>
+      <th>CMS</th>
+      <th>Usage</th>
+      <th>Change Since 6/1/16</th>
+      <th>Market Share</th>
+      <th>Change Since 6/1/16</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>WordPress</td>
+      <td>26.5%</td>
+      <td>+0.1%</td>
+      <td>59.5%</td>
+      <td>No change</td>
+    </tr>
+    <tr>
+      <td>Joomla</td>
+      <td>2.6%</td>
+      <td>-0.1%</td>
+      <td>5.9%</td>
+      <td>No change</td>
+    </tr>
+    <tr>
+      <td>Drupal</td>
+      <td>2.2%</td>
+      <td>No change</td>
+      <td>4.9%</td>
+      <td>No change</td>
+    </tr>
+    <tr>
+      <td>Magento</td>
+      <td>1.3%</td>
+      <td>No change</td>
+      <td>2.8%</td>
+      <td>No change</td>
+    </tr>
+    <tr>
+      <td>Blogger</td>
+      <td>1.2%</td>
+      <td>No change</td>
+      <td>2.6%</td>
+      <td>No change</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
 
 <?php
   }
