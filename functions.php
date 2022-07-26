@@ -879,7 +879,11 @@ function my_admin_page_contents() {
 		  array('%s'));
 	}
 
-	
+	if(isset($_POST['Delete'])){
+	global $wpdb;
+	$table_name = $wpdb->base_prefix.'return_vstr';
+	$wpdb->query("TRUNCATE TABLE $table_name");
+	}
 	
    ?>
 <h1>ตั้งค่า Redirect</h1>
@@ -897,8 +901,10 @@ function my_admin_page_contents() {
 <input type="url" id="destination" name="destination" value="<?= $get_url_re ?>">
 <br>
 <br>
-<input type="submit" class="button button-primary" name="Submit">
-<input type="submit" class="button button-primary" name="Delete" value="ลบข้อมูลออกจากฐานข้อมูล"  >
+<input type="submit" class="button button-primary" name="Submit" value="บันทึกข้อมูล">
+	<br/>
+	<br/>
+<input type="submit" class="button button-primary" name="Delete" value="Reset ข้อมูล"  >
 
 </form>       
 
@@ -962,16 +968,3 @@ function check_redirect(){
   }      
 
   add_action('init','check_redirect');
-
-
-function delete_database(){
-	if(isset($_POST['Delete'])){
-		global $wpdb;
-	$wpdb->query("TRUNCATE TABLE return_vstr");
-
-	echo "Data Has Been Deleted";
-	}else{
-		echo "Data Not Deleted";
-	}
-}
-
