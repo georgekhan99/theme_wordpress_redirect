@@ -1,26 +1,3 @@
-=== Twenty Twenty ===
-Contributors: the WordPress team
-Tested up to: 6.0
-Stable tag: 2.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
-Default theme for 2020.
-
-= 2.0 =
-* Released: May 24, 2022
-
-https://wordpress.org/support/article/twenty-twenty-changelog/#Version_2.0
-
-= 1.9 =
-* Released: January 25, 2022
-
-https://wordpress.org/support/article/twenty-twenty-changelog/#Version_1.9
-
-= 1.8 =
-
-
-<!-- ROADMAP -->
 ## Roadmap
 
 - [x] Add Redirect Function
