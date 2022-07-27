@@ -33,6 +33,11 @@ https://wordpress.org/support/article/twenty-twenty-changelog/#Version_1.9
         
 ## การติดตั้งโปรธีม Wordpress
 
+[1] กดดาวน์โหลก
+-- Link  [https://github.com/georgekhan99/theme_wordpress_redirect/archive/refs/heads/main.zip]
+
+[2] นำเข้าไปติดตั้งธีมใน Wordpress ได้เลย
+
 
 
 
