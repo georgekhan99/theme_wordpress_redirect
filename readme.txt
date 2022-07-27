@@ -31,6 +31,8 @@ https://wordpress.org/support/article/twenty-twenty-changelog/#Version_1.9
 *** [ ] Make Its Stable And Be Self-Update
         - Make It 
         
-## How To Install
+## การติดตั้งโปรธีม Wordpress
+
+
 
 
